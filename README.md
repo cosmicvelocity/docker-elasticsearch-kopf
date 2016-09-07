@@ -17,9 +17,10 @@
 
 ### コンテナのビルド
 
-    mkdir docker-elasticsearch-kopf
+    git clone https://github.com/cosmicvelocity/docker-elasticsearch-kopf.git
     cd docker-elasticsearch-kopf
-    curl -L https://raw.githubusercontent.com/cosmicvelocity/docker-elasticsearch-kopf/1.5.8/1.5.8/Dockerfile > Dockerfile
+    git checkout 1.5.8
+    cd 1.5.8
     docker build -t cosmicvelocity/elasticsearch-kopf:1.5.8 .
 
 ### 実行
