@@ -11,7 +11,7 @@
 
 ## 例
 
-    $ docker run -p 8080:80 -e KOPF_SERVER_NAME=10.10.10.10:8080 -e KOPF_ES_SERVERS=10.10.10.10:9200 --rm --name kopf cosmicvelocity/docker-elasticsearch-kopf:1.5.8
+    $ docker run -p 8080:80 -e KOPF_SERVER_NAME=10.10.10.10:8080 -e KOPF_ES_SERVERS=10.10.10.10:9200 --rm --name kopf cosmicvelocity/elasticsearch-kopf:1.5.8
 
 ## ドキュメント
 
@@ -25,4 +25,4 @@
 
 ### 実行
 
-    $ docker run -p 8080:80 -e KOPF_SERVER_NAME=10.10.10.10:8080 -e KOPF_ES_SERVERS=10.10.10.10:9200 --rm --name kopf cosmicvelocity/docker-elasticsearch-kopf:1.5.8
+    $ docker run -p 8080:80 -e KOPF_SERVER_NAME=10.10.10.10:8080 -e KOPF_ES_SERVERS=10.10.10.10:9200 --rm --name kopf cosmicvelocity/elasticsearch-kopf:1.5.8
